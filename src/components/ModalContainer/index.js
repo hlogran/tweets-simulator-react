@@ -4,8 +4,7 @@ import { Modal } from "@material-ui/core";
 import "./styles.scss";
 
 export default function ModalContainer(props) {
-  const { isOpenModal, closeModal, children } = props;
-
+  const { isOpenModal = false, closeModal, children } = props;
   return (
     <Modal
       className="modal-container"
