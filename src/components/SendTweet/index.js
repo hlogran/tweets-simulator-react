@@ -9,7 +9,7 @@ import { TWEETS_STORAGE } from "../../utils/constants";
 import "./styles.scss";
 
 export default function SendTweet(props) {
-  const { setToastProp } = props;
+  const { setToastProp, allTweets = [] } = props;
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   const openModal = () => {
@@ -24,12 +24,7 @@ export default function SendTweet(props) {
     event.preventDefault();
     const { name, tweet } = formValue;
 
-    console.log(TWEETS_STORAGE);
-    let allTweetArray = [];
-    const storedValue = localStorage.getItem(TWEETS_STORAGE);
-    if (storedValue) {
-      allTweetArray = JSON.parse(storedValue);
-    }
+    let allTweetArray = allTweets;
 
     if (!name || !tweet) {
       setToastProp({ open: true, text: "WARNING: All fields are required." });
