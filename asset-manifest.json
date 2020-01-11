@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tweets-simulator/static/css/main.976cec0c.chunk.css",
+    "main.js": "/tweets-simulator/static/js/main.6e6f30ff.chunk.js",
+    "main.js.map": "/tweets-simulator/static/js/main.6e6f30ff.chunk.js.map",
+    "runtime-main.js": "/tweets-simulator/static/js/runtime-main.fe615d43.js",
+    "runtime-main.js.map": "/tweets-simulator/static/js/runtime-main.fe615d43.js.map",
+    "static/js/2.e19a0026.chunk.js": "/tweets-simulator/static/js/2.e19a0026.chunk.js",
+    "static/js/2.e19a0026.chunk.js.map": "/tweets-simulator/static/js/2.e19a0026.chunk.js.map",
+    "index.html": "/tweets-simulator/index.html",
+    "precache-manifest.62063d292bc0c8ac8bdd33e28c96872a.js": "/tweets-simulator/precache-manifest.62063d292bc0c8ac8bdd33e28c96872a.js",
+    "service-worker.js": "/tweets-simulator/service-worker.js",
+    "static/css/main.976cec0c.chunk.css.map": "/tweets-simulator/static/css/main.976cec0c.chunk.css.map",
+    "static/js/2.e19a0026.chunk.js.LICENSE": "/tweets-simulator/static/js/2.e19a0026.chunk.js.LICENSE",
+    "static/media/twitter-logo.png": "/tweets-simulator/static/media/twitter-logo.400dc885.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe615d43.js",
+    "static/js/2.e19a0026.chunk.js",
+    "static/css/main.976cec0c.chunk.css",
+    "static/js/main.6e6f30ff.chunk.js"
+  ]
+}
